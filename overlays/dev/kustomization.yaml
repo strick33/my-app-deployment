@@ -3,3 +3,6 @@ kind: Kustomization
 resources:
 - ../../base
 namePrefix: strick33-
+images:
+- name: gitopsworkshop/my-app
+  newTag: v2
